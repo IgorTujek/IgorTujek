@@ -13,6 +13,11 @@ header {
     font-style: normal;
 }
 
+body {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
 p {
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
@@ -50,5 +55,28 @@ section#hero {
 section#hero #introduction,
 section#hero img {
     width: 50%;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+
+
+}
+
+section#hero img {
+    max-height: 100%;
+    max-width: 48%;
+}
+
+/*-----------------about me------------------------------ */
+section#about-me {
+    display: flex;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+
+section#about-me div,
+section#about-me img {
+    width: 50%;
+
 
 }
