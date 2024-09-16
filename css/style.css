@@ -77,6 +77,20 @@ section#about-me {
 section#about-me div,
 section#about-me img {
     width: 50%;
+}
+
+/*------------------------Knowledge---------------------------------*/
+section#knowledge {
+    background-color: rgba(36, 34, 34, 1);
+    color: white;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    padding: 2rem;
 
 
+}
+
+section#knowledge>div {
+    display: flex;
+    justify-content: space-between;
 }
