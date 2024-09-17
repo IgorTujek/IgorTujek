@@ -88,9 +88,12 @@ section#knowledge {
     padding: 2rem;
 
 
+
 }
 
 section#knowledge>div {
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
+
 }
