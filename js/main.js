@@ -3,7 +3,14 @@ var selectableDivs = document.querySelectorAll('#example1, #example2, #example3,
 // The div that shows the text
 var contentdiv = document.querySelector('#content')
 // Texts to be shown 
-var text1 = '8 years of basic education wit side projects. (feedback)'
+var text1 = `During my eight years in primary school, I experienced significant personal 
+            and academic growth. I developed a strong foundation in various subjects, including mathematics,
+            science, and literature, which sparked my curiosity and love for learning.
+            I also participated in extracurricular activities, such as art and sports, which helped me build 
+            teamwork and leadership skills. Friendships formed during this time have enriched my life and taught me
+            the value of collaboration and support.
+            Overall, these years have shaped me into a more confident and well-rounded individual, preparing me for
+            the challenges and opportunities that lie ahead in my education.`
 var text2 = `The Destination Imagination (DI) Poland 2019 Creativity Olympiad was 
              a vibrant event that brought together students from across the country
              to solve complex challenges through creativity, teamwork, and innovation.
