@@ -54,9 +54,9 @@ section#hero {
     align-items: center;
 }
 
-section#hero #introduction,
-section#hero img {
-    width: 50%;
+section#hero #introduction
+{
+    width: 100%;
     font-size: 1.5rem;
     margin-top: 4rem;
 
@@ -75,6 +75,35 @@ section#hero #heroimg {
 
 section#hero img::after {}
 
+/*desktop styles*/
+
+    section#hero #bg-img {
+        background: url('../img/cta.jpg');
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+        width: 100%;    
+        height: 80%;
+        background-color: black;
+        margin-right: -2rem;
+    }        
+/* mobile styles*/
+@media (max-width: 500px) {
+    section#hero{
+        display:flex; 
+        flex-direction: column;
+    }
+    section#hero #bg-img {
+        background: url('../img/cta.jpg');
+        background-size: contain;
+        background-position: left;
+        background-repeat: no-repeat;
+        width: 100%;    
+        height: 80%;
+        margin-right: -2rem;
+        background-color: transparent;
+    }
+}
 /*-----------------about me------------------------------ */
 section#about-me {
     display: flex;
